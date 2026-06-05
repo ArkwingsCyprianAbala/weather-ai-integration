@@ -32,7 +32,7 @@ A polished weather dashboard built for the [Weather-AI technical assessment](htt
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/weather-ai-integration.git
+   git clone https://github.com/ArkwingsCyprianAbala/weather-ai-integration.git
    cd weather-ai-integration
    ```
 

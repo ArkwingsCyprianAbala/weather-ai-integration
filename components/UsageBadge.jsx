@@ -20,13 +20,13 @@ export default function UsageBadge({ usage }) {
         <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-sky-300/45">
           API usage
         </p>
-        <p className="mt-0.5 truncate text-sm font-medium text-sky-50">
+        {/* <p className="mt-0.5 truncate text-sm font-medium text-sky-50">
           {used != null && limit != null
             ? `${used.toLocaleString()} / ${limit.toLocaleString()} requests`
             : remaining != null
               ? `${remaining.toLocaleString()} remaining`
               : 'Usage loaded'}
-        </p>
+        </p> */}
         {pct != null && (
           <div className="mt-2.5 h-2 overflow-hidden rounded-full bg-white/8">
             <div
